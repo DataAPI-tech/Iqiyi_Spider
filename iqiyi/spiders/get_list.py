@@ -3,6 +3,7 @@ import scrapy
 import logging
 import json
 
+# 在这里写一点厉害的东西
 
 class GetListSpider(scrapy.Spider):
     name = 'get_list'
