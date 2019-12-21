@@ -55,4 +55,5 @@ class GetListSpider(scrapy.Spider):
         for i in data_list:
             item['日期'] = i.get('date').replace('.','')
             item['热度'] = i.get('count')
+            print('jjej')
             yield item
